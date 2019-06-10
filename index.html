@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="arts">
 
 <head>
     <meta charset="utf-8">
     <title>ARTS</title>
     <link rel="stylesheet" href="art.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
 </head>
 
 
-    <body>
-    <div class="title">
+<body id="body">
+<div class="title">
     <b>ARTS</b>
-    </div>
-<hr>
+</div>
+<br>
 
-    <div id="top-buttons">
-         <button class="button">xxdgf</button>
-         <button class="button">xdgxd</button>
-         <button class="button">xgdxd</button>
-         <button class="button">xdgxd</button>
-    </div>
+<div id="top-buttons">
+    <a ui-sref="home"><button class="button">Home</button></a>
+    <a ui-sref="gallery"><button class="button">Gallery</button></a>
+    <a ui-sref="about"><button class="button">About</button></a>
+    <a ui-sref="contact"><button class="button">Contact</button></a>
+</div>
+
+<div class="top-block">
+
+</div >
 
 
-    <!--
-  <hr>
 
-  <div class="bottom-line">
+<div ui-view></div>
 
-  <p>  new line new line new line</p>
-  </div>
-  -->
-  </body>
+
+</body>
 </html>

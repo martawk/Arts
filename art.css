@@ -1,34 +1,42 @@
 .title {
     text-align: center;
-    font-size: 40px;
-    text-shadow: 0 0 20px #0000FF;
+    font-size: 50px;
+    color: grey;
+
+
+
+    text-shadow: 0 0 20px #b4b4b4;
 }
 
-/*.top-buttons */
-
-.second-button{
-  background-color: white;
-  color: black;
-  border: 2px solid #555555;
-}
-.second-button:hover {
-   background-color: #555555;
-   color: white;
+#top-buttons {
+   text-align: center;
 }
 
-.third-button{
-
-
+.button{
+  background-color: #b4b4b4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
 
 }
-
-.fourth.button{
-
-
+.button:hover{
+    background-color: darkgrey;
 
 }
 
+.top-block{
+    border:2px solid lightgrey;
+}
 
+
+
+.contact-div {
+  color: "red";
+}
 
 
 /*
